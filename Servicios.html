@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios ofrecidos por STIVEN BLANDON VALENCIA en diseño gráfico, desarrollo web y más.">
+    <title>Servicios - SECH</title>
+    <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+
+    <style>
+        .servicios {
+            display: flex;
+            flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+            justify-content: center; /* Centrar los elementos */
+            gap: 20px; /* Espacio entre los cuadros */
+            padding: 20px;
+        }
+
+        .servicio-ind {
+            background-color: #1a1a1a; /* Fondo oscuro para los cuadros */
+            border-radius: 10px; /* Bordes redondeados */
+            overflow: hidden; /* Esconde el desbordamiento */
+            transition: transform 0.3s; /* Efecto de transición */
+            text-align: center; /* Centrar texto */
+            padding: 20px; /* Espaciado interno */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+            width: 200px; /* Ancho fijo para cada cuadro */
+        }
+
+        .servicio-ind img {
+            width: 100%; /* Imagen ocupa el 100% del contenedor */
+            height: auto; /* Mantiene la proporción de la imagen */
+            border-radius: 10px; /* Bordes redondeados para la imagen */
+        }
+
+        .servicio-ind h3 {
+            color: #ffffff; /* Color del texto */
+            margin: 15px 0 10px; /* Margen para el título */
+        }
+
+        .servicio-ind p {
+            color: #cccccc; /* Color del texto del párrafo */
+            font-weight: 300; /* Peso de la fuente */
+        }
+
+        .servicio-ind:hover {
+            transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+        }
+
+        @media (max-width: 600px) {
+            .servicio-ind {
+                width: 90%; /* Ancho del cuadro en pantallas pequeñas */
+            }
+        }
+    </style>
+
+</head>
+
+ <!-- logo de cargar  -->
+ <body> </div class="hidden">
+    <div  class="ubicado" id="onload">
+    <div class="pyramid-loader">
+    <div class="wrapper">
+    <span class="side side1"></span>
+    <span class="side side2"></span>
+    <span class="side side3"></span>
+    <span class="side side4"></span>
+    <span class="shadow"></span>
+</div>
+</div>
+</div>
+</div>
+
+
+    <header>
+        <nav>
+            <img src="img/LOGO.png" alt="LOGO" width="30" height="30">
+            <a href="index.html">Inicio</a>
+            <a href="Acerca de.html">Acerca de</a>
+            <a href="Servicios.html">Servicios</a>
+            <a href="Portafolio.html">Portafolio</a>
+            <a href="https://api.whatsapp.com/send?phone=573148304818&text=Hola%20estoy%20interesad%40%20en%20tus%20servicios%F0%9F%98%B1%F0%9F%98%B1">Contacto</a>
+        </nav>
+        <section class="textos-header">
+           <center> <h1>Nuestros Servicios</h1> </center>
+        </section>
+    </header>
+
+    <main>
+        <center><h2 class="titulo">Servicios que Ofrecemos</h2></center>
+        <section class="contenedor servicios">
+            
+            <div class="servicio-ind">
+                <img src="img/vista-superior-hombre-trabajando-escritorio.jpg" alt="Diseño Gráfico">
+                <h3>Diseño Gráfico</h3>
+                <p>Creamos diseños visuales que capturan la esencia de tu marca y comunican tu mensaje de manera efectiva.</p>
+            </div>
+            <div class="servicio-ind">
+                <img src="img/desarrollo.jpg" alt="Desarrollo Web">
+                <h3>Desarrollo Web</h3>
+                <p>Desarrollamos sitios web responsivos y funcionales que se adaptan a las necesidades de tu negocio.</p>
+            </div>
+            <div class="servicio-ind">
+                <img src="img/concepto-marketing-redes-sociales-marketing-aplicaciones.jpg" alt="Gestión de Redes Sociales">
+                <h3>Gestión de Redes Sociales</h3>
+                <p>Nos encargamos de tu presencia en redes sociales, creando contenido atractivo y gestionando tu comunidad.</p>
+            </div>
+            <div class="servicio-ind">
+                <img src="img/PRODUCCION audio.jpg" alt="Producción Audiovisual">
+                <h3>Producción Audiovisual</h3>
+                <p>Producción de videos creativos que cuentan la historia de tu marca y conectan con tu audiencia.</p>
+            </div>
+            <div class="servicio-ind">
+                <img src="img/fotografia.jpg" alt="Fotografía">
+                <h3>Fotografía</h3>
+                <p>Capturamos momentos especiales y creamos imágenes que cuentan historias visuales impactantes.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>+57 3148304818</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>STIVENBLANDONV@GMAIL.COM</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>MEDELLIN-ANTIOQUIA</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; SECH_007 Design | STIVEN BLANDON V</h2>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="codigo.js"></script>
+</body>
+
+</html>

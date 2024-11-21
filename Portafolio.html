@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de STIVEN BLANDON VALENCIA con proyectos de diseño gráfico y producción audiovisual.">
+    <title>Portafolio - SECH</title>
+    <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav img {
+            width: 40px;
+            height: 40px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12; /* Color al pasar el mouse */
+        }
+
+        .portafolio {
+            padding: 20px;
+        }
+
+        .titulo-portafolio {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 30px;
+        }
+
+        .galeria-port {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .imagen-port {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .imagen-port img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .imagen-port:hover {
+            transform: scale(1.05);
+        }
+
+        .imagen-port:hover img {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 600px) {
+            .titulo-portafolio {
+                font-size: 24px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="img/LOGO.png" alt="Logo de Stiven Blandon Valencia">
+            <div>
+                <a href="index.html">Inicio</a>
+                <a href="Acerca de.html">Acerca de</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Portafolio.html">Portafolio</a>
+                <a href="https://api.whatsapp.com/send?phone=573148304818&text=Hola%20estoy%20interesad%40%20en%20tus%20servicios%F0%9F%98%B1%F0%9F%98%B1">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portafolio">
+            <h2 class="titulo-portafolio">Mi Portafolio</h2>
+            <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="img/CANONT5.png" alt="Proyecto 1">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/CANONT5.png" alt="Proyecto 2">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/CANONT5.png" alt="Proyecto 3">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/CANONT5.png" alt="Proyecto 4">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/CANONT5.png" alt="Proyecto 6">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center; margin-top: 20px;">&copy; 2023 Stiven Blandon Valencia. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="codigo.js"></script>
+</body>
+
+</html>
